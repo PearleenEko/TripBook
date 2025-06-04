@@ -354,6 +354,7 @@ fun PostDetailContent(post: PostModel) {
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
         }
+
         Spacer(modifier = Modifier.height(16.dp))
 
         if (post.categories.isNotEmpty() || post.tags.isNotEmpty()) {
@@ -377,6 +378,7 @@ fun PostDetailContent(post: PostModel) {
             Spacer(modifier = Modifier.height(16.dp))
 
         }
+
 
 
         if (post.hashtags.isNotEmpty()) {
