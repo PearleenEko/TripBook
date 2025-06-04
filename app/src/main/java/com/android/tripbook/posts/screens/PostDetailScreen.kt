@@ -1,20 +1,8 @@
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.LazyRow
-import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.text.KeyboardActions
-import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Delete
-import androidx.compose.material.icons.filled.Favorite
-import androidx.compose.material.icons.filled.FavoriteBorder
-import androidx.compose.material.icons.filled.LocationOn
-import androidx.compose.material.icons.filled.Send
-import androidx.compose.material.icons.filled.Verified
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -22,16 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalFocusManager
-import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.dp
-// import androidx.lifecycle.viewmodel.compose.viewModel // ViewModel is now passed
-import coil.compose.AsyncImage
-import com.android.tripbook.posts.model.PostModel
-import com.android.tripbook.posts.ui.components.CommentItem
-import com.android.tripbook.posts.ui.components.PostTagChip
 import com.android.tripbook.posts.viewmodel.PostEvent
 import com.android.tripbook.posts.viewmodel.PostViewModel
 
@@ -40,15 +19,7 @@ import com.android.tripbook.posts.viewmodel.PostViewModel
 // Placeholder R class if not resolved by IDE:
 
 
-import java.time.ZoneId
-import java.time.format.DateTimeFormatter
-import java.util.Locale
 
-object R {
-    object drawable {
-        const val ic_avatar_placeholder = 0 // Replace with actual if you have one
-    }
-}
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
