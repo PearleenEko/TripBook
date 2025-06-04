@@ -402,4 +402,3 @@ fun PostDetailContent(post: PostModel) {
         Divider()
     }
 }
-
