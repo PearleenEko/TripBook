@@ -375,7 +375,9 @@ fun PostDetailContent(post: PostModel) {
                 }
             }
             Spacer(modifier = Modifier.height(16.dp))
+
         }
+
 
         if (post.hashtags.isNotEmpty()) {
             Text(
